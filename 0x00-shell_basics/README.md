@@ -55,6 +55,8 @@ mkdir -p welcome/to/school : is a script that creates the directories welcome/, 
 Task-18
 ls -pamv : is a command that lists all the files and directories of the current directory, separated by commas
 
-Task-19
+Task-19 
 0  string SCHOOL School data
-!:mime School 
+!:mime School : This magic file can be used with the command file to detect School data files always contain the string SCHOOL at offset 0
+
+ 
