@@ -43,3 +43,6 @@ ln -s /bin/ls __ls__: is a symbolic link to /bin/ls, named _ls_.
 Task-14
 cp -u *.html .. : is a script that copies HTML files form the working directory to the parent of the working directory
 
+Task-15
+mv [[:upper:]]* /tmp/u : is a script that moves all files beginning with an uppercase letter to the directory /tmp/u
+
