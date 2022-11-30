@@ -6,4 +6,6 @@ ls -lf: is a script that display current directory contents, including hidden fi
 ls -al: is a script that display the directory contents, long format, with user and group IDs displayed numerically, and hidden files.
 mkdir /tmp/my_first_directory/: is a script that creates a directory named my_first_directory in the /tmp directory
 mv /tmp/betty /tmp/my_first_directory: is a script that move the file betty from /tmp/ to /tmp/my_first_directory
-rm /tmp/my_first_directory/betty: is a script that delete the file betty fro /tmp/my_first_directory
+rm /tmp/my_first_directory/betty: is a script that delete the file betty from /tmp/my_first_directory
+rm /tmp/my_first_directory: is a script that delete the directory my_first_directroy from /tmp
+
