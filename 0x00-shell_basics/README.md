@@ -46,3 +46,6 @@ cp -u *.html .. : is a script that copies HTML files form the working directory 
 Task-15
 mv [[:upper:]]* /tmp/u : is a script that moves all files beginning with an uppercase letter to the directory /tmp/u
 
+Task-16
+rm *~ : is a script that deletes all files in the current working directory that end with the character ~
+
