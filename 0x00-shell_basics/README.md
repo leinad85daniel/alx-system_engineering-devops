@@ -49,3 +49,7 @@ mv [[:upper:]]* /tmp/u : is a script that moves all files beginning with an uppe
 Task-16
 rm *~ : is a script that deletes all files in the current working directory that end with the character ~
 
+Task-17
+mkdir -p welcome/to/school : is a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+
+
