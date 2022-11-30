@@ -9,3 +9,5 @@ mv /tmp/betty /tmp/my_first_directory: is a script that move the file betty from
 rm /tmp/my_first_directory/betty: is a script that delete the file betty from /tmp/my_first_directory
 rmdir /tmp/my_first_directory: is a script that delete the directory my_first_directroy from /tmp
 cd -: is a script that changes the working directory to the previous one.
+ls -la . .. /boot: is a script tha lists all files in the current directory and the parent of the working directory and the /boot director, in long format
+
