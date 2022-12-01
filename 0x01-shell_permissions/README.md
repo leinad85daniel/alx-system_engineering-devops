@@ -19,4 +19,7 @@ chmod u+x hello: is a script that adds execute permission to the owner of the fi
 Task-6
 chmod u+x,g+x,o+r hello: is a script that adds execute permissions to the owner and the group owner, and read permission to other users, to the file hello.
 
+Task-7
+chmod ugo+x hello: is a script that adds execution permission to the owner, the group owner and the other users, to the file hello.
+
 
