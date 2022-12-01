@@ -41,4 +41,7 @@ chmod -R +111 */: is a script that adds execute permission to all subdirectories
 Task-12
 mkdir -m 752 my_dir:is a script that creates a directory called my_dir with permissions 751 in the working directory.
 
+Task-13
+chgrp school hello: is a script that changes the group owner to school for the file hello.
+
 
