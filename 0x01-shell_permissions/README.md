@@ -44,4 +44,7 @@ mkdir -m 752 my_dir:is a script that creates a directory called my_dir with perm
 Task-13
 chgrp school hello: is a script that changes the group owner to school for the file hello.
 
+Task-14
+chown -R vincent:staff ./: is a script that changes the owner to vincent and the group owner to staff for all the files and directories.
+
 
