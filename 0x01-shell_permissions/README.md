@@ -22,4 +22,10 @@ chmod u+x,g+x,o+r hello: is a script that adds execute permissions to the owner 
 Task-7
 chmod ugo+x hello: is a script that adds execution permission to the owner, the group owner and the other users, to the file hello.
 
+Task-8
+chmod 007 hello: is a script that sets the permission to the file as follows: 
+        owner - no permission at whole
+        Group - no permission at all
+        Other users - all the permissions
+
 
