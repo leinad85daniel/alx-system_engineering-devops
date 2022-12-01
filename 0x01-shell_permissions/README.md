@@ -32,4 +32,7 @@ Task-9
 chmod 753 hello: is a script that sets the mode of the file hello to this:
         -rwxr-x-wx 1 julien jlien 23 sep 20 14:25 hello
 
+Task-10
+chmod --reference olleh hello: is a script that sets the file hello the same as olleh's mode.
+
 
