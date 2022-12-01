@@ -33,6 +33,9 @@ chmod 753 hello: is a script that sets the mode of the file hello to this:
         -rwxr-x-wx 1 julien jlien 23 sep 20 14:25 hello
 
 Task-10
-chmod --reference olleh hello: is a script that sets the file hello the same as olleh's mode.
+chmod --reference olleh hello: is a script that sets the mode of the file hello the same as olleh's mode.
+
+Task-11
+chmod -R a+x ./: is a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 
 
