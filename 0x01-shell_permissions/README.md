@@ -47,4 +47,9 @@ chgrp school hello: is a script that changes the group owner to school for the f
 Task-14
 chown -R vincent:staff ./: is a script that changes the owner to vincent and the group owner to staff for all the files and directories.
 
+Task-15
+chown -h vincent:staff _hello: is a script that changes the group owner of _hello to vincent and staff respectively:
+                The file _hello is in the working directory
+                The file _hello is a symbolic link
+
 
