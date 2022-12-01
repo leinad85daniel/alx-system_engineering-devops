@@ -28,4 +28,8 @@ chmod 007 hello: is a script that sets the permission to the file as follows:
         Group - no permission at all
         Other users - all the permissions
 
+Task-9
+chmod 753 hello: is a script that sets the mode of the file hello to this:
+        -rwxr-x-wx 1 julien jlien 23 sep 20 14:25 hello
+
 
