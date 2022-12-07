@@ -154,3 +154,95 @@ Q--> Create a script that displays the 10 newest files in the current directory.
               (|) - pipeline
               (head) - displays the first 10 lines of a file (by default)
               
+13. Being unique is better than being perfect
+
+Q--> Create a script that takes a list of words as input and prints only words that appear exactly once.
+
+           Input format: One line, one word
+           Output format: One line, one word
+           Words should be sorted
+A--> sort | uniq -u
+
+14. It must be in that file
+
+Q--> Display lines containing the pattern “root” from the file /etc/passwd
+
+A--> egrep "root" /etc/passwd
+
+Explain: egrep = grep -e = search for extended regular expressions
+
+15. Count that word
+
+Q--> Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+
+A--> grep "bin" /etc/passwd | wc -l
+
+16. What's next?
+
+Q--> Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+A--> egrep -A 3 "root" /etc/passwd
+
+Explanation: (-A) - is a grep context line control to print number lines of trailing context after matching.
+
+17. I hate bins
+
+Q--> Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+A--> cat /etc/passwd | grep -v "bin"
+
+Explanation: (-v) - non-matching lines (Invert the sense of matching)
+
+18. Letters only please
+
+Q--> Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+
+A--> egrep ^[[:alpha:]] /etc/ssh/sshd_config
+
+Explanation: (^(caret)) - indicates the beginning of the line.
+
+19. A to Z
+
+Q--> Replace all characters A and c from input to Z and e respectively.
+
+A--> tr 'Ac' 'Ze'
+
+Explanation: (tr) - translate or delete characters
+
+20. Without C, you would live in hiago
+
+Q--> Create a script that removes all letters c and C from input.
+
+A--> tr -d cC
+
+Explanation: (tr -d) - remove characters
+
+21. esreveR
+
+Q--> Write a script that reverse its input.
+
+A--> rev
+
+22. Write a script that displays all users and their home directories, sorted by users.
+
+Q--> Write a script that displays all users and their home directories, sorted by users.
+
+     Based on the the /etc/passwd file
+
+A--> cut -d ':' -f 1,6 /etc/passwd | sort
+
+Explanation: (cut) - print selected parts of lines 
+             (-d) - delimeter (marks the beginning or end of a unit of data.) 
+             (:) - separate values in paths
+             (-f 1,6) - select only these fields (1 = login name, 6 = user home directory)
+               
+              
+              
+
+
+
+
+
+
+
+
